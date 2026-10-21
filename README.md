@@ -1,7 +1,5 @@
 # WP1 Exam Practice
 
-A local study site for the Web Programming I theory exam (UEF), built with React + Tailwind CSS (Vite).
-
 Five tabs: **HTML & CSS**, **Accessibility & Bootstrap**, **Git & GitHub**, **JavaScript**, **React**.
 Each tab has:
 
