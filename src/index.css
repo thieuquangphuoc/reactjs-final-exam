@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* One font for the whole site. A monospace face keeps code and text consistent. */
+@theme {
+  --font-sans: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-paper: #fbfbf8;
+  --color-ink: #1d1d1b;
+  --color-muted: #66665f;
+  --color-line: #d8d8d1;
+  --color-soft: #f1f1ec;
+  --color-accent: #1f47b8;
+  --color-good: #17713a;
+  --color-good-soft: #e9f3ec;
+  --color-bad: #a8261b;
+  --color-bad-soft: #f8eae8;
+}
+
+@layer base {
+  html {
+    font-size: 15px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: #dfe5f5;
+  }
+
+  input[type="radio"] {
+    accent-color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
