@@ -15,9 +15,9 @@ npm run dev
 
 Open http://localhost:5173/
 
-## AI grading for written answers (optional)
+## Grading for written answers (optional)
 
-Written answers can be graded by Claude. The key is used only by the local dev server; it is never sent to the browser.
+Written answers can be graded by AI. The key is used only by the local dev server; it is never sent to the browser.
 
 1. Get an API key at https://console.anthropic.com
 2. `cp .env.example .env` and set `ANTHROPIC_API_KEY=...`
